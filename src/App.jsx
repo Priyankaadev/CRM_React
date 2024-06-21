@@ -1,12 +1,15 @@
 import './App.css'
+import './pages/auth/Login'
+import Signup from './pages/auth/Signup'
 
 function App() {
  
 
   return (
-   <h1 className='text-3xl font-semibold underline'>
-   New application
-   </h1>
+  <>
+  {/* <Login /> */}
+  <Signup />
+  </>
   )
 }
 
