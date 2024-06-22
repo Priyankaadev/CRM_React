@@ -1,15 +1,11 @@
 import './App.css'
-
-import Signup from './pages/auth/Signup'
+import MainRoutes from './Routes/MainRoutes'
 
 function App() {
  
 
   return (
-  <>
-  {/* <Login /> */}
-  <Signup />
-  </>
+  <MainRoutes />
   )
 }
 
