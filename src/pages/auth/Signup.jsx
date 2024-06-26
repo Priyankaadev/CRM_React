@@ -57,9 +57,13 @@ function Signup() {
             !signupDetails.userType) return;
         const response = await dispatch(signup( signupDetails));
         console.log(response);
-        if(response.payload) navigate("/login");
-        else resetSignupState( );
-    }
+        if(response.payload) {
+            // toast.success("Successfull signed up" )
+            navigate("/login")
+        } else {
+                // toast.error( 'something went wrong, please try again!')
+                resetSignupState( );
+    }}
     return (
         <div className="flex justify-center font-mono h-[90vh] items-center">
 
