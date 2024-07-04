@@ -1,6 +1,6 @@
-function Card({ children, fontColor='text-white', background="bg-primary",divider="bg-white",borderColor="border-error",titleText= "Card", status=50, quantity=50 }) {
+function Card({ children, fontColor='text-white', background="bg-primary",divider="bg-white", bordercolor="border-error",titleText= "Card", status=50, quantity=50 }) {
     return (
-        <div className={`w-64 h-52 border-b-8 ${borderColor}  rounded-md flex flex-col ${background} justify-start items-center py-4`}>
+        <div className={`w-64 h-52 border-b-8 ${bordercolor}  rounded-md flex flex-col ${background} justify-start items-center py-4`}>
 
             <div className="text-primary-content text-2xl mb-2">
                 {children}
